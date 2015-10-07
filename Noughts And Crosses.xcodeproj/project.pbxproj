@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FC69551BC593B20059B3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC69541BC593B20059B3B3 /* AppDelegate.swift */; };
+		42FC69571BC593B20059B3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC69561BC593B20059B3B3 /* ViewController.swift */; };
+		42FC695A1BC593B20059B3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FC69581BC593B20059B3B3 /* Main.storyboard */; };
+		42FC695C1BC593B20059B3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FC695B1BC593B20059B3B3 /* Assets.xcassets */; };
+		42FC695F1BC593B20059B3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FC695D1BC593B20059B3B3 /* LaunchScreen.storyboard */; };
+		42FC696A1BC593B20059B3B3 /* Noughts_And_CrossesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC69691BC593B20059B3B3 /* Noughts_And_CrossesTests.swift */; };
+		42FC69751BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC69741BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FC69661BC593B20059B3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FC69491BC593B10059B3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FC69501BC593B10059B3B3;
+			remoteInfo = "Noughts And Crosses";
+		};
+		42FC69711BC593B20059B3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FC69491BC593B10059B3B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FC69501BC593B10059B3B3;
+			remoteInfo = "Noughts And Crosses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42FC69511BC593B10059B3B3 /* Noughts And Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts And Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC69541BC593B20059B3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42FC69561BC593B20059B3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FC69591BC593B20059B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FC695B1BC593B20059B3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FC695E1BC593B20059B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42FC69601BC593B20059B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FC69651BC593B20059B3B3 /* Noughts And CrossesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts And CrossesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC69691BC593B20059B3B3 /* Noughts_And_CrossesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noughts_And_CrossesTests.swift; sourceTree = "<group>"; };
+		42FC696B1BC593B20059B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FC69701BC593B20059B3B3 /* Noughts And CrossesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts And CrossesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC69741BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noughts_And_CrossesUITests.swift; sourceTree = "<group>"; };
+		42FC69761BC593B20059B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FC694E1BC593B10059B3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC69621BC593B20059B3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC696D1BC593B20059B3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FC69481BC593B10059B3B3 = {
+			isa = PBXGroup;
+			children = (
+				42FC69531BC593B10059B3B3 /* Noughts And Crosses */,
+				42FC69681BC593B20059B3B3 /* Noughts And CrossesTests */,
+				42FC69731BC593B20059B3B3 /* Noughts And CrossesUITests */,
+				42FC69521BC593B10059B3B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FC69521BC593B10059B3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FC69511BC593B10059B3B3 /* Noughts And Crosses.app */,
+				42FC69651BC593B20059B3B3 /* Noughts And CrossesTests.xctest */,
+				42FC69701BC593B20059B3B3 /* Noughts And CrossesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FC69531BC593B10059B3B3 /* Noughts And Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				42FC69541BC593B20059B3B3 /* AppDelegate.swift */,
+				42FC69561BC593B20059B3B3 /* ViewController.swift */,
+				42FC69581BC593B20059B3B3 /* Main.storyboard */,
+				42FC695B1BC593B20059B3B3 /* Assets.xcassets */,
+				42FC695D1BC593B20059B3B3 /* LaunchScreen.storyboard */,
+				42FC69601BC593B20059B3B3 /* Info.plist */,
+			);
+			path = "Noughts And Crosses";
+			sourceTree = "<group>";
+		};
+		42FC69681BC593B20059B3B3 /* Noughts And CrossesTests */ = {
+			isa = PBXGroup;
+			children = (
+				42FC69691BC593B20059B3B3 /* Noughts_And_CrossesTests.swift */,
+				42FC696B1BC593B20059B3B3 /* Info.plist */,
+			);
+			path = "Noughts And CrossesTests";
+			sourceTree = "<group>";
+		};
+		42FC69731BC593B20059B3B3 /* Noughts And CrossesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42FC69741BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift */,
+				42FC69761BC593B20059B3B3 /* Info.plist */,
+			);
+			path = "Noughts And CrossesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FC69501BC593B10059B3B3 /* Noughts And Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FC69791BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */;
+			buildPhases = (
+				42FC694D1BC593B10059B3B3 /* Sources */,
+				42FC694E1BC593B10059B3B3 /* Frameworks */,
+				42FC694F1BC593B10059B3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts And Crosses";
+			productName = "Noughts And Crosses";
+			productReference = 42FC69511BC593B10059B3B3 /* Noughts And Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42FC69641BC593B20059B3B3 /* Noughts And CrossesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FC697C1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesTests" */;
+			buildPhases = (
+				42FC69611BC593B20059B3B3 /* Sources */,
+				42FC69621BC593B20059B3B3 /* Frameworks */,
+				42FC69631BC593B20059B3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FC69671BC593B20059B3B3 /* PBXTargetDependency */,
+			);
+			name = "Noughts And CrossesTests";
+			productName = "Noughts And CrossesTests";
+			productReference = 42FC69651BC593B20059B3B3 /* Noughts And CrossesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42FC696F1BC593B20059B3B3 /* Noughts And CrossesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FC697F1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesUITests" */;
+			buildPhases = (
+				42FC696C1BC593B20059B3B3 /* Sources */,
+				42FC696D1BC593B20059B3B3 /* Frameworks */,
+				42FC696E1BC593B20059B3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FC69721BC593B20059B3B3 /* PBXTargetDependency */,
+			);
+			name = "Noughts And CrossesUITests";
+			productName = "Noughts And CrossesUITests";
+			productReference = 42FC69701BC593B20059B3B3 /* Noughts And CrossesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FC69491BC593B10059B3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = joshuacleetus;
+				TargetAttributes = {
+					42FC69501BC593B10059B3B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					42FC69641BC593B20059B3B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 42FC69501BC593B10059B3B3;
+					};
+					42FC696F1BC593B20059B3B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 42FC69501BC593B10059B3B3;
+					};
+				};
+			};
+			buildConfigurationList = 42FC694C1BC593B10059B3B3 /* Build configuration list for PBXProject "Noughts And Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FC69481BC593B10059B3B3;
+			productRefGroup = 42FC69521BC593B10059B3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FC69501BC593B10059B3B3 /* Noughts And Crosses */,
+				42FC69641BC593B20059B3B3 /* Noughts And CrossesTests */,
+				42FC696F1BC593B20059B3B3 /* Noughts And CrossesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FC694F1BC593B10059B3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FC695F1BC593B20059B3B3 /* LaunchScreen.storyboard in Resources */,
+				42FC695C1BC593B20059B3B3 /* Assets.xcassets in Resources */,
+				42FC695A1BC593B20059B3B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC69631BC593B20059B3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC696E1BC593B20059B3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FC694D1BC593B10059B3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FC69571BC593B20059B3B3 /* ViewController.swift in Sources */,
+				42FC69551BC593B20059B3B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC69611BC593B20059B3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FC696A1BC593B20059B3B3 /* Noughts_And_CrossesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC696C1BC593B20059B3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FC69751BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42FC69671BC593B20059B3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FC69501BC593B10059B3B3 /* Noughts And Crosses */;
+			targetProxy = 42FC69661BC593B20059B3B3 /* PBXContainerItemProxy */;
+		};
+		42FC69721BC593B20059B3B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FC69501BC593B10059B3B3 /* Noughts And Crosses */;
+			targetProxy = 42FC69711BC593B20059B3B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42FC69581BC593B20059B3B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FC69591BC593B20059B3B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FC695D1BC593B20059B3B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FC695E1BC593B20059B3B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FC69771BC593B20059B3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42FC69781BC593B20059B3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FC697A1BC593B20059B3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42FC697B1BC593B20059B3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42FC697D1BC593B20059B3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Noughts And CrossesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts And Crosses.app/Noughts And Crosses";
+			};
+			name = Debug;
+		};
+		42FC697E1BC593B20059B3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Noughts And CrossesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts And Crosses.app/Noughts And Crosses";
+			};
+			name = Release;
+		};
+		42FC69801BC593B20059B3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Noughts And CrossesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Noughts And Crosses";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42FC69811BC593B20059B3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Noughts And CrossesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Noughts And Crosses";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FC694C1BC593B10059B3B3 /* Build configuration list for PBXProject "Noughts And Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FC69771BC593B20059B3B3 /* Debug */,
+				42FC69781BC593B20059B3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FC69791BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FC697A1BC593B20059B3B3 /* Debug */,
+				42FC697B1BC593B20059B3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FC697C1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FC697D1BC593B20059B3B3 /* Debug */,
+				42FC697E1BC593B20059B3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FC697F1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FC69801BC593B20059B3B3 /* Debug */,
+				42FC69811BC593B20059B3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FC69491BC593B10059B3B3 /* Project object */;
+}
