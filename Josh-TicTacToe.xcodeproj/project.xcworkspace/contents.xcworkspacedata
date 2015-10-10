@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Noughts And Crosses.xcodeproj">
+      location = "self:/Users/joshua/Documents/Udemy/Noughts And Crosses/Josh-TicTacToe.xcodeproj">
    </FileRef>
 </Workspace>

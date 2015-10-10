@@ -14,6 +14,9 @@
 		42FC695F1BC593B20059B3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FC695D1BC593B20059B3B3 /* LaunchScreen.storyboard */; };
 		42FC696A1BC593B20059B3B3 /* Noughts_And_CrossesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC69691BC593B20059B3B3 /* Noughts_And_CrossesTests.swift */; };
 		42FC69751BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC69741BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift */; };
+		42FC69831BC594210059B3B3 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FC69821BC594210059B3B3 /* board.png */; settings = {ASSET_TAGS = (); }; };
+		42FC69861BC594340059B3B3 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FC69841BC594340059B3B3 /* cross.png */; settings = {ASSET_TAGS = (); }; };
+		42FC69871BC594340059B3B3 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FC69851BC594340059B3B3 /* nought.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42FC69511BC593B10059B3B3 /* Noughts And Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts And Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC69511BC593B10059B3B3 /* Josh-TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Josh-TicTacToe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FC69541BC593B20059B3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FC69561BC593B20059B3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42FC69591BC593B20059B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42FC695B1BC593B20059B3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FC695E1BC593B20059B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FC69601BC593B20059B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42FC69651BC593B20059B3B3 /* Noughts And CrossesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts And CrossesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC69651BC593B20059B3B3 /* Josh-TicTacToe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Josh-TicTacToe.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FC69691BC593B20059B3B3 /* Noughts_And_CrossesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noughts_And_CrossesTests.swift; sourceTree = "<group>"; };
 		42FC696B1BC593B20059B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42FC69701BC593B20059B3B3 /* Noughts And CrossesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noughts And CrossesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC69701BC593B20059B3B3 /* Josh-TicTacToe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Josh-TicTacToe.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FC69741BC593B20059B3B3 /* Noughts_And_CrossesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noughts_And_CrossesUITests.swift; sourceTree = "<group>"; };
 		42FC69761BC593B20059B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FC69821BC594210059B3B3 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		42FC69841BC594340059B3B3 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		42FC69851BC594340059B3B3 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		42FC69481BC593B10059B3B3 = {
 			isa = PBXGroup;
 			children = (
+				42FC69821BC594210059B3B3 /* board.png */,
+				42FC69841BC594340059B3B3 /* cross.png */,
+				42FC69851BC594340059B3B3 /* nought.png */,
 				42FC69531BC593B10059B3B3 /* Noughts And Crosses */,
 				42FC69681BC593B20059B3B3 /* Noughts And CrossesTests */,
 				42FC69731BC593B20059B3B3 /* Noughts And CrossesUITests */,
@@ -87,9 +96,9 @@
 		42FC69521BC593B10059B3B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42FC69511BC593B10059B3B3 /* Noughts And Crosses.app */,
-				42FC69651BC593B20059B3B3 /* Noughts And CrossesTests.xctest */,
-				42FC69701BC593B20059B3B3 /* Noughts And CrossesUITests.xctest */,
+				42FC69511BC593B10059B3B3 /* Josh-TicTacToe.app */,
+				42FC69651BC593B20059B3B3 /* Josh-TicTacToe.xctest */,
+				42FC69701BC593B20059B3B3 /* Josh-TicTacToe.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42FC69501BC593B10059B3B3 /* Noughts And Crosses */ = {
+		42FC69501BC593B10059B3B3 /* Josh-TicTacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42FC69791BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */;
+			buildConfigurationList = 42FC69791BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Josh-TicTacToe" */;
 			buildPhases = (
 				42FC694D1BC593B10059B3B3 /* Sources */,
 				42FC694E1BC593B10059B3B3 /* Frameworks */,
@@ -140,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = "Noughts And Crosses";
+			name = "Josh-TicTacToe";
 			productName = "Noughts And Crosses";
-			productReference = 42FC69511BC593B10059B3B3 /* Noughts And Crosses.app */;
+			productReference = 42FC69511BC593B10059B3B3 /* Josh-TicTacToe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42FC69641BC593B20059B3B3 /* Noughts And CrossesTests */ = {
+		42FC69641BC593B20059B3B3 /* Josh-TicTacToeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42FC697C1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesTests" */;
+			buildConfigurationList = 42FC697C1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Josh-TicTacToeTests" */;
 			buildPhases = (
 				42FC69611BC593B20059B3B3 /* Sources */,
 				42FC69621BC593B20059B3B3 /* Frameworks */,
@@ -158,14 +167,14 @@
 			dependencies = (
 				42FC69671BC593B20059B3B3 /* PBXTargetDependency */,
 			);
-			name = "Noughts And CrossesTests";
+			name = "Josh-TicTacToeTests";
 			productName = "Noughts And CrossesTests";
-			productReference = 42FC69651BC593B20059B3B3 /* Noughts And CrossesTests.xctest */;
+			productReference = 42FC69651BC593B20059B3B3 /* Josh-TicTacToe.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42FC696F1BC593B20059B3B3 /* Noughts And CrossesUITests */ = {
+		42FC696F1BC593B20059B3B3 /* Josh-TicTacToeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42FC697F1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesUITests" */;
+			buildConfigurationList = 42FC697F1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Josh-TicTacToeUITests" */;
 			buildPhases = (
 				42FC696C1BC593B20059B3B3 /* Sources */,
 				42FC696D1BC593B20059B3B3 /* Frameworks */,
@@ -176,9 +185,9 @@
 			dependencies = (
 				42FC69721BC593B20059B3B3 /* PBXTargetDependency */,
 			);
-			name = "Noughts And CrossesUITests";
+			name = "Josh-TicTacToeUITests";
 			productName = "Noughts And CrossesUITests";
-			productReference = 42FC69701BC593B20059B3B3 /* Noughts And CrossesUITests.xctest */;
+			productReference = 42FC69701BC593B20059B3B3 /* Josh-TicTacToe.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42FC694C1BC593B10059B3B3 /* Build configuration list for PBXProject "Noughts And Crosses" */;
+			buildConfigurationList = 42FC694C1BC593B10059B3B3 /* Build configuration list for PBXProject "Josh-TicTacToe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42FC69501BC593B10059B3B3 /* Noughts And Crosses */,
-				42FC69641BC593B20059B3B3 /* Noughts And CrossesTests */,
-				42FC696F1BC593B20059B3B3 /* Noughts And CrossesUITests */,
+				42FC69501BC593B10059B3B3 /* Josh-TicTacToe */,
+				42FC69641BC593B20059B3B3 /* Josh-TicTacToeTests */,
+				42FC696F1BC593B20059B3B3 /* Josh-TicTacToeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FC69861BC594340059B3B3 /* cross.png in Resources */,
+				42FC69831BC594210059B3B3 /* board.png in Resources */,
+				42FC69871BC594340059B3B3 /* nought.png in Resources */,
 				42FC695F1BC593B20059B3B3 /* LaunchScreen.storyboard in Resources */,
 				42FC695C1BC593B20059B3B3 /* Assets.xcassets in Resources */,
 				42FC695A1BC593B20059B3B3 /* Main.storyboard in Resources */,
@@ -281,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		42FC69671BC593B20059B3B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42FC69501BC593B10059B3B3 /* Noughts And Crosses */;
+			target = 42FC69501BC593B10059B3B3 /* Josh-TicTacToe */;
 			targetProxy = 42FC69661BC593B20059B3B3 /* PBXContainerItemProxy */;
 		};
 		42FC69721BC593B20059B3B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42FC69501BC593B10059B3B3 /* Noughts And Crosses */;
+			target = 42FC69501BC593B10059B3B3 /* Josh-TicTacToe */;
 			targetProxy = 42FC69711BC593B20059B3B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,7 +411,7 @@
 				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-Crosses";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Josh-TicTacToe";
 			};
 			name = Debug;
 		};
@@ -410,7 +422,7 @@
 				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-Crosses";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Josh-TicTacToe";
 			};
 			name = Release;
 		};
@@ -421,8 +433,8 @@
 				INFOPLIST_FILE = "Noughts And CrossesTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts And Crosses.app/Noughts And Crosses";
+				PRODUCT_NAME = "Josh-TicTacToe";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Josh-TicTacToe.app/Josh-TicTacToe";
 			};
 			name = Debug;
 		};
@@ -433,8 +445,8 @@
 				INFOPLIST_FILE = "Noughts And CrossesTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noughts And Crosses.app/Noughts And Crosses";
+				PRODUCT_NAME = "Josh-TicTacToe";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Josh-TicTacToe.app/Josh-TicTacToe";
 			};
 			name = Release;
 		};
@@ -444,7 +456,7 @@
 				INFOPLIST_FILE = "Noughts And CrossesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Josh-TicTacToe";
 				TEST_TARGET_NAME = "Noughts And Crosses";
 				USES_XCTRUNNER = YES;
 			};
@@ -456,7 +468,7 @@
 				INFOPLIST_FILE = "Noughts And CrossesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuacleetus.Noughts-And-CrossesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Josh-TicTacToe";
 				TEST_TARGET_NAME = "Noughts And Crosses";
 				USES_XCTRUNNER = YES;
 			};
@@ -465,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42FC694C1BC593B10059B3B3 /* Build configuration list for PBXProject "Noughts And Crosses" */ = {
+		42FC694C1BC593B10059B3B3 /* Build configuration list for PBXProject "Josh-TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42FC69771BC593B20059B3B3 /* Debug */,
@@ -474,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42FC69791BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */ = {
+		42FC69791BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Josh-TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42FC697A1BC593B20059B3B3 /* Debug */,
@@ -482,7 +494,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		42FC697C1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesTests" */ = {
+		42FC697C1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Josh-TicTacToeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42FC697D1BC593B20059B3B3 /* Debug */,
@@ -490,7 +502,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		42FC697F1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Noughts And CrossesUITests" */ = {
+		42FC697F1BC593B20059B3B3 /* Build configuration list for PBXNativeTarget "Josh-TicTacToeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42FC69801BC593B20059B3B3 /* Debug */,

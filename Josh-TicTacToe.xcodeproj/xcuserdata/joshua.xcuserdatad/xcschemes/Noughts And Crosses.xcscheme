@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42FC69501BC593B10059B3B3"
-               BuildableName = "Noughts And Crosses.app"
-               BlueprintName = "Noughts And Crosses"
-               ReferencedContainer = "container:Noughts And Crosses.xcodeproj">
+               BuildableName = "Josh-TicTacToe.app"
+               BlueprintName = "Josh-TicTacToe"
+               ReferencedContainer = "container:Josh-TicTacToe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42FC69641BC593B20059B3B3"
-               BuildableName = "Noughts And CrossesTests.xctest"
-               BlueprintName = "Noughts And CrossesTests"
-               ReferencedContainer = "container:Noughts And Crosses.xcodeproj">
+               BuildableName = "Josh-TicTacToe.xctest"
+               BlueprintName = "Josh-TicTacToeTests"
+               ReferencedContainer = "container:Josh-TicTacToe.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42FC696F1BC593B20059B3B3"
-               BuildableName = "Noughts And CrossesUITests.xctest"
-               BlueprintName = "Noughts And CrossesUITests"
-               ReferencedContainer = "container:Noughts And Crosses.xcodeproj">
+               BuildableName = "Josh-TicTacToe.xctest"
+               BlueprintName = "Josh-TicTacToeUITests"
+               ReferencedContainer = "container:Josh-TicTacToe.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42FC69501BC593B10059B3B3"
-            BuildableName = "Noughts And Crosses.app"
-            BlueprintName = "Noughts And Crosses"
-            ReferencedContainer = "container:Noughts And Crosses.xcodeproj">
+            BuildableName = "Josh-TicTacToe.app"
+            BlueprintName = "Josh-TicTacToe"
+            ReferencedContainer = "container:Josh-TicTacToe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42FC69501BC593B10059B3B3"
-            BuildableName = "Noughts And Crosses.app"
-            BlueprintName = "Noughts And Crosses"
-            ReferencedContainer = "container:Noughts And Crosses.xcodeproj">
+            BuildableName = "Josh-TicTacToe.app"
+            BlueprintName = "Josh-TicTacToe"
+            ReferencedContainer = "container:Josh-TicTacToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42FC69501BC593B10059B3B3"
-            BuildableName = "Noughts And Crosses.app"
-            BlueprintName = "Noughts And Crosses"
-            ReferencedContainer = "container:Noughts And Crosses.xcodeproj">
+            BuildableName = "Josh-TicTacToe.app"
+            BlueprintName = "Josh-TicTacToe"
+            ReferencedContainer = "container:Josh-TicTacToe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
